@@ -1,54 +1,50 @@
-# React + TypeScript + Vite
+# 💼 Portfólio Profissional — Victor Del Valle
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Bem-vindo ao meu portfólio pessoal, desenvolvido com foco em UI/UX moderna, animações suaves e responsividade completa. Aqui você encontrará uma vitrine dos meus projetos back-end, experiências e habilidades como desenvolvedor!
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Tecnologias Utilizadas
 
-## Expanding the ESLint configuration
+- ⚛️ **React** + **TypeScript**
+- 💨 **Tailwind CSS** (estilização rápida e responsiva)
+- 🎥 **Framer Motion** (animações)
+- 🌐 **Vercel** (deploy)
+- 🧠 Projetos back-end com **.NET Core**, **C#** e **Spring Boot**
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+---
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+## 📱 Totalmente Responsivo
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+Este site foi construído para funcionar perfeitamente em **celulares, tablets e desktops**. Testado em dispositivos reais para garantir a melhor experiência possível.
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+---
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+## 🔗 Links Importantes
+
+- 🔗 [Portfólio Online (Vercel)](https://victordelvalle.vercel.app)
+- 💼 [LinkedIn](https://www.linkedin.com/in/victor-del-valle)
+- 📁 [Repositório no GitHub](https://github.com/victor-delvalle)
+
+---
+
+## 🧩 Projetos em Destaque
+
+| Projeto | Descrição | Linguagem |
+|--------|-----------|-----------|
+| [UserManagement API](https://github.com/victor-delvalle/UserManagementAPI) | API RESTful com DDD para gerenciamento de usuários com ASP.NET Core + SQL Server | C# / .NET |
+| [Jogo de Xadrez Console](https://github.com/victor-delvalle/Jogo-de-Xadrez) | Jogo de xadrez jogável via terminal com regras completas | C# |
+| [Loja do Seu Manoel](https://github.com/victor-delvalle/LojaDoSeuManoel) | API REST para gerenciamento de pedidos/produtos usando .NET 8, foco em boas práticas | C# / .NET 8 |
+| [Tarefas API](https://github.com/victor-delvalle/TarefasApi) | API de tarefas com Spring Boot, ideal para estudos e aprendizado | Java / Spring Boot |
+
+---
+
+
+## 🧠 Sobre Mim
+
+Sou desenvolvedor com experiência em back-end .NET e foco em boas práticas de desenvolvimento, qualidade de código e APIs REST. Este portfólio é meu espaço para mostrar quem sou, o que faço e o que posso entregar.
+
+---
+
+
+> _“Transformando ideias em soluções reais com tecnologia.”_
